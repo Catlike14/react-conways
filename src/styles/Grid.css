@@ -1,0 +1,22 @@
+.grid {
+    border-style: solid;
+    border-width: 0 0 3px 3px;
+    border-color: #a0a0a0;
+    background-color: black;
+}
+
+.row {
+    line-height: 0;
+}
+.cell-alive, .cell-died {
+    border-style: solid;
+    border-width: 3px 3px 0 0;
+    border-color: #a0a0a0;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+
+.cell-alive {
+    background-color: white;
+}
